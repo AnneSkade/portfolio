@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+  color: black;
+  width: 100%;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  overflow-x: hidden;
+  padding-bottom: 10vw;
+}
+
+div.nav{
+  margin: auto;
+  padding: 1% 1.5%;
+  border-bottom: solid black 1px;
+  width: 100%;
+  height: 100px;
+  align-items:flex-end;
+}
+
+h1.navName{
+  display: inline;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 3em;
+  float: left;
+}
+
+div.space{
+  float: right;
+  width: 40vw;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin: 2vw;
+}
+
+li{
+  display: inline;
+  padding: 1.5%;
+  width: 8vw;
+  margin-top: 15px;
+  margin-right: 1vw;
+  padding: 10px;
+  font-size: 20px;
+}
+
+li a{
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+div > a{
+  font-size: 1vw;
+  padding: 2vw;
+}
+
+#margin{
+margin-left: 24px;
+}
+h1.title{
+  float: left;
+  font-size: 20vw;
+  width: 50%;
+  height: 400px;
+}
+
+#centerSubtitle{
+    text-align: center;
+}
+
+div.subtitle{
+  float: right;
+  padding-top: 190px;
+  width: 50%;
+  height: 210px;
+}
+
+div.subtitleContainer{
+  float: left;
+}
+
+header p{
+  margin-top: 20vw;
+  padding: 200px;
+  text-align: center;
+}
+
+p{
+  font-size: 2vw;
+}
+
+h1 {
+  font-size: 3.5vw;
+}
+
+h2{
+  font-size: 3vw;
+}
+
+section, footer{
+  margin: 0 5vw;
+  padding: 0 5vw;
+}
+
+section h2{
+    padding: 3vw;
+    margin-bottom: 3vw;
+    text-decoration: underline;
+    margin-left: 0;
+}
+
+.grid{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.arrow{
+  width: 100%;
+  text-align: right;
+  display: block;
+}
+
+div.description{
+  margin-top: 20%;
+}
+.description p{
+  text-align: left;
+  display: inline;
+  float: left;
+  width: 60%;
+  margin: 4vw 1vw 1vw 0;
+  padding: 1% 1% 1% 0;
+}
+.description img{
+  border-radius: 52%;
+  float: right;
+  width: 20%;
+}
+
+footer{
+  margin-top: 400px;
+}
+
+footer > p{
+  margin: 2vw auto auto 5vw;
+}
+
+footer a{
+  font-size: 4vw;
+}
